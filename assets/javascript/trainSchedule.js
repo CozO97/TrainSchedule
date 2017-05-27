@@ -93,6 +93,6 @@ database.ref().on("child_added", function(childsnapshot) {
 $('table').on('click', 'button', function() {
     $(this).closest('tr').remove();
 });
-$('#upDate').on("click", ".info", function() {
-    childsnapshot();
+$(document).on("click", "#updateButton", function() {
+    window.location.reload(true);
 });

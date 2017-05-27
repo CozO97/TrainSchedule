@@ -1,7 +1,7 @@
 body{
 	padding: 0;
 	margin: 0;
-	background-image: url('..assets/images/background.jpg');
+	background-image: url('../assets/images/background.jpg');
 	}
 .jumbotron {
 	background-color: #D2691E;
@@ -16,6 +16,6 @@ body{
 	padding-top: 25px;
 	color: white;
 }
-#update {
+#updateButton {
 	margin-bottom: 25px;
 }
